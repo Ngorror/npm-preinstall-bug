@@ -9,4 +9,4 @@ the reality is - `preinstall` script will be executed AFTER dependencies install
 
 how can you check this - after executing `npm install` you will see that `node_modules` directory was deleted by `preinstall` script.
 
-Note: mongodb is just an example dependencies. you can try with any other npm package as dependency.
+Note: mongodb is just an example dependency package. You can try with any other npm package as dependency.
