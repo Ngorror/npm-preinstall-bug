@@ -1,0 +1,14 @@
+{
+  "name": "npm-preinstall-bug",
+  "version": "1.0.0",
+  "dependencies": {
+    "mongodb": ">=3.6.0"
+  },
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "rm -f -R node_modules"
+  },
+  "author": "",
+  "license": "ISC"
+}
